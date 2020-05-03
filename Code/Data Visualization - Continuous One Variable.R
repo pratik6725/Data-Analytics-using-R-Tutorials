@@ -18,7 +18,7 @@ View(db)
 #We will choose a continuous variable 'price' for understanding how to deal with single continuous data
 
 #Let's create ggplot with parameter as price
-plot <- ggplot(db, x= price)
+plot <- ggplot(db,aes(x= price))
 
 #Plotting of graph
 #We will start with histogram
